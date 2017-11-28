@@ -16,7 +16,7 @@
 
 package com.google.zxing.aztec;
 
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DetectorResult;
 

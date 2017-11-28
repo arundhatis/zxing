@@ -17,8 +17,8 @@
 package com.google.zxing.oned;
 
 import com.google.zxing.common.*;
-import com.google.zxing.common.helper.Result;
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.Result;
+import com.google.zxing.common.ResultPoint;
 
 import java.util.Arrays;
 import java.util.Map;

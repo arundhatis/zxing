@@ -16,7 +16,7 @@
 
 package com.google.zxing.qrcode.decoder;
 
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.ResultPoint;
 
 /**
  * Meta-data container for QR Code decoding. Instances of this class may be used to convey information back to the

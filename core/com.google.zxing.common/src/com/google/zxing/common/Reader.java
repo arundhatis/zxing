@@ -16,8 +16,6 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.common.helper.Result;
-
 import java.util.Map;
 
 /**

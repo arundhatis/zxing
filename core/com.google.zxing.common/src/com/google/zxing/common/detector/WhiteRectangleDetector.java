@@ -18,7 +18,7 @@ package com.google.zxing.common.detector;
 
 import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.BitMatrix;
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.ResultPoint;
 
 /**
  * <p>

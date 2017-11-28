@@ -16,8 +16,6 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.common.helper.ResultPoint;
-
 /**
  * <p>Encapsulates the result of detecting a barcode in an image. This includes the raw
  * matrix of black/white pixels corresponding to the barcode, and possibly points of interest

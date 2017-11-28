@@ -17,7 +17,7 @@
 package com.google.zxing.aztec.detector;
 
 import com.google.zxing.common.NotFoundException;
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.ResultPoint;
 import com.google.zxing.aztec.AztecDetectorResult;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.GridSampler;

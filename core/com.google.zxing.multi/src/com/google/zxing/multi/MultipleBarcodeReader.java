@@ -19,7 +19,7 @@ package com.google.zxing.multi;
 import com.google.zxing.common.BinaryBitmap;
 import com.google.zxing.common.DecodeHintType;
 import com.google.zxing.common.NotFoundException;
-import com.google.zxing.common.helper.Result;
+import com.google.zxing.common.Result;
 import com.google.zxing.common.Reader;
 
 import java.util.Map;

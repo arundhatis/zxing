@@ -16,7 +16,7 @@
 
 package com.google.zxing.qrcode.detector;
 
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.ResultPoint;
 
 /**
  * <p>Encapsulates a finder pattern, which are the three square patterns found in

@@ -17,7 +17,7 @@
 package com.google.zxing.oned;
 
 import com.google.zxing.common.*;
-import com.google.zxing.common.helper.Result;
+import com.google.zxing.common.Result;
 import com.google.zxing.common.BarcodeFormat;
 
 import java.util.Map;

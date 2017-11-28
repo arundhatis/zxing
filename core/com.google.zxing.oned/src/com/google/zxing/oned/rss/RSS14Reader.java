@@ -18,8 +18,8 @@ package com.google.zxing.oned.rss;
 
 import com.google.zxing.common.*;
 import com.google.zxing.common.detector.MathUtils;
-import com.google.zxing.common.helper.Result;
-import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.Result;
+import com.google.zxing.common.ResultPoint;
 
 import java.util.ArrayList;
 import java.util.Collection;
