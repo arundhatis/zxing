@@ -16,9 +16,9 @@
 
 package com.google.zxing.common.detector;
 
-import com.google.zxing.NotFoundException;
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.BitMatrix;
+import com.google.zxing.common.helper.ResultPoint;
 
 /**
  * <p>A somewhat generic detector that looks for a barcode-like rectangular region within an image.

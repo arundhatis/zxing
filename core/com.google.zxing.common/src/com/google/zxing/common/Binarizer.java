@@ -14,10 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
-
-import com.google.zxing.common.BitArray;
-import com.google.zxing.common.BitMatrix;
+package com.google.zxing.common;
 
 /**
  * This class hierarchy provides a set of methods to convert luminance data to 1 bit data.

@@ -16,16 +16,16 @@
 
 package com.google.zxing.datamatrix;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.BinaryBitmap;
-import com.google.zxing.ChecksumException;
-import com.google.zxing.DecodeHintType;
-import com.google.zxing.FormatException;
-import com.google.zxing.NotFoundException;
-import com.google.zxing.Reader;
-import com.google.zxing.Result;
-import com.google.zxing.ResultMetadataType;
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.BinaryBitmap;
+import com.google.zxing.common.ChecksumException;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.Reader;
+import com.google.zxing.common.helper.Result;
+import com.google.zxing.common.helper.ResultMetadataType;
+import com.google.zxing.common.helper.ResultPoint;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DecoderResult;
 import com.google.zxing.common.DetectorResult;

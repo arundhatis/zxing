@@ -16,8 +16,6 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.NotFoundException;
-
 /**
  * @author Sean Owen
  */

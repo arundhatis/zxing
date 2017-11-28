@@ -16,8 +16,8 @@
 
 package com.google.zxing.oned;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.NotFoundException;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.BitArray;
 
 /**

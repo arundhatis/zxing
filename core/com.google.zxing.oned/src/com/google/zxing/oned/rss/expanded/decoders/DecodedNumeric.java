@@ -26,7 +26,7 @@
 
 package com.google.zxing.oned.rss.expanded.decoders;
 
-import com.google.zxing.FormatException;
+import com.google.zxing.common.FormatException;
 
 /**
  * @author Pablo Orduña, University of Deusto (pablo.orduna@deusto.es)

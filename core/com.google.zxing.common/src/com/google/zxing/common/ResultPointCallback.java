@@ -1,5 +1,5 @@
 /*
- * Copyright 2008 ZXing authors
+ * Copyright 2009 ZXing authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,25 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common;
 
 /**
- * A base class which covers the range of exceptions which may occur when encoding a barcode using
- * the Writer framework.
+ * Callback which is invoked when a possible result point (significant
+ * point in the barcode image such as a corner) is found.
  *
- * @author dswitkin@google.com (Daniel Switkin)
+ * @see DecodeHintType#NEED_RESULT_POINT_CALLBACK
  */
-public final class WriterException extends Exception {
+public interface ResultPointCallback {
 
-  public WriterException() {
-  }
-
-  public WriterException(String message) {
-    super(message);
-  }
- 
-  public WriterException(Throwable cause) {
-    super(cause);
-  }
+  void foundPossibleResultPoint(ResultPoint point);
 
 }

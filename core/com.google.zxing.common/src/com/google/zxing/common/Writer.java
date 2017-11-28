@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
-
-import com.google.zxing.common.BitMatrix;
+package com.google.zxing.common;
 
 import java.util.Map;
 

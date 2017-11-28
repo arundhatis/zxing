@@ -16,10 +16,10 @@
 
 package com.google.zxing.datamatrix;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.Dimension;
-import com.google.zxing.EncodeHintType;
-import com.google.zxing.Writer;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.Dimension;
+import com.google.zxing.common.EncodeHintType;
+import com.google.zxing.common.Writer;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.datamatrix.encoder.*;
 import com.google.zxing.qrcode.encoder.ByteMatrix;

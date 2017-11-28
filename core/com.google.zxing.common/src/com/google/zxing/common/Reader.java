@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common;
+
+import com.google.zxing.common.helper.Result;
 
 import java.util.Map;
 

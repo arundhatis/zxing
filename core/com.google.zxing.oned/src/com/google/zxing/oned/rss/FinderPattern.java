@@ -16,7 +16,7 @@
 
 package com.google.zxing.oned.rss;
 
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.helper.ResultPoint;
 
 /**
  * Encapsulates an RSS barcode finder pattern, including its start/end position and row.

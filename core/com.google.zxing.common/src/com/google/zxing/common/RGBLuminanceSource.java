@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common;
 
 /**
  * This class is used to help decode images from files which arrive as RGB data from

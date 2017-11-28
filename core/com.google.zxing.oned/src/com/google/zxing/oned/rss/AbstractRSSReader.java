@@ -16,7 +16,7 @@
 
 package com.google.zxing.oned.rss;
 
-import com.google.zxing.NotFoundException;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.detector.MathUtils;
 import com.google.zxing.oned.OneDReader;
 

@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common;
 
 /**
- * Thrown when a barcode was successfully detected, but some aspect of
- * the content did not conform to the barcode's format rules. This could have
- * been due to a mis-detection.
+ * Thrown when a barcode was successfully detected and decoded, but
+ * was not returned because its checksum feature failed.
  *
  * @author Sean Owen
  */
-public final class FormatException extends ReaderException {
+public final class ChecksumException extends ReaderException {
 
-  private static final FormatException INSTANCE = new FormatException();
+  private static final ChecksumException INSTANCE = new ChecksumException();
   static {
     INSTANCE.setStackTrace(NO_TRACE); // since it's meaningless
   }
 
-  private FormatException() {
+  private ChecksumException() {
+    // do nothing
   }
 
-  private FormatException(Throwable cause) {
+  private ChecksumException(Throwable cause) {
     super(cause);
   }
 
-  public static FormatException getFormatInstance() {
-    return isStackTrace ? new FormatException() : INSTANCE;
+  public static ChecksumException getChecksumInstance() {
+    return isStackTrace ? new ChecksumException() : INSTANCE;
   }
 
-  public static FormatException getFormatInstance(Throwable cause) {
-    return isStackTrace ? new FormatException(cause) : INSTANCE;
+  public static ChecksumException getChecksumInstance(Throwable cause) {
+    return isStackTrace ? new ChecksumException(cause) : INSTANCE;
   }
 }

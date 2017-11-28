@@ -16,10 +16,10 @@
 
 package com.google.zxing.qrcode.detector;
 
-import com.google.zxing.DecodeHintType;
-import com.google.zxing.NotFoundException;
-import com.google.zxing.ResultPoint;
-import com.google.zxing.ResultPointCallback;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.ResultPointCallback;
 import com.google.zxing.common.BitMatrix;
 
 import java.io.Serializable;

@@ -14,34 +14,27 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common;
 
 /**
- * Thrown when a barcode was successfully detected and decoded, but
- * was not returned because its checksum feature failed.
+ * Thrown when a barcode was not found in the image. It might have been
+ * partially detected but could not be confirmed.
  *
  * @author Sean Owen
  */
-public final class ChecksumException extends ReaderException {
+public final class NotFoundException extends ReaderException {
 
-  private static final ChecksumException INSTANCE = new ChecksumException();
+  private static final NotFoundException INSTANCE = new NotFoundException();
   static {
     INSTANCE.setStackTrace(NO_TRACE); // since it's meaningless
   }
 
-  private ChecksumException() {
+  private NotFoundException() {
     // do nothing
   }
 
-  private ChecksumException(Throwable cause) {
-    super(cause);
+  public static NotFoundException getNotFoundInstance() {
+    return INSTANCE;
   }
 
-  public static ChecksumException getChecksumInstance() {
-    return isStackTrace ? new ChecksumException() : INSTANCE;
-  }
-
-  public static ChecksumException getChecksumInstance(Throwable cause) {
-    return isStackTrace ? new ChecksumException(cause) : INSTANCE;
-  }
 }

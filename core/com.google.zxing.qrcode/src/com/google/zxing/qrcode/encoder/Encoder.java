@@ -16,8 +16,8 @@
 
 package com.google.zxing.qrcode.encoder;
 
-import com.google.zxing.EncodeHintType;
-import com.google.zxing.WriterException;
+import com.google.zxing.common.EncodeHintType;
+import com.google.zxing.common.WriterException;
 import com.google.zxing.common.BitArray;
 import com.google.zxing.common.CharacterSetECI;
 import com.google.zxing.common.reedsolomon.GenericGF;

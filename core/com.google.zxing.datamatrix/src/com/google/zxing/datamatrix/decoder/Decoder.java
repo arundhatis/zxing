@@ -16,8 +16,8 @@
 
 package com.google.zxing.datamatrix.decoder;
 
-import com.google.zxing.ChecksumException;
-import com.google.zxing.FormatException;
+import com.google.zxing.common.ChecksumException;
+import com.google.zxing.common.FormatException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DecoderResult;
 import com.google.zxing.common.reedsolomon.GenericGF;

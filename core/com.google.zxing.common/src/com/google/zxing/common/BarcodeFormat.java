@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common;
 
 /**
  * Enumerates barcode formats known to this package. Please keep alphabetized.

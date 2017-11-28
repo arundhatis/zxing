@@ -16,8 +16,8 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.BinaryBitmap;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.BinaryBitmap;
 import com.google.zxing.BufferedImageLuminanceSource;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.LuminanceSource;

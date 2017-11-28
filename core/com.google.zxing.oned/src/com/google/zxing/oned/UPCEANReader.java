@@ -16,8 +16,11 @@
 
 package com.google.zxing.oned;
 
-import com.google.zxing.*;
-import com.google.zxing.common.BitArray;
+import com.google.zxing.common.*;
+import com.google.zxing.common.helper.Result;
+import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.helper.ResultMetadataType;
 
 import java.util.Arrays;
 import java.util.Map;

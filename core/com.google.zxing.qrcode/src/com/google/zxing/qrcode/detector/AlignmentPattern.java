@@ -16,7 +16,7 @@
 
 package com.google.zxing.qrcode.detector;
 
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.helper.ResultPoint;
 
 /**
  * <p>Encapsulates an alignment pattern, which are the smaller square patterns found in

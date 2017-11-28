@@ -16,9 +16,9 @@
 
 package com.google.zxing.oned;
 
-import com.google.zxing.NotFoundException;
-import com.google.zxing.ReaderException;
-import com.google.zxing.Result;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.ReaderException;
+import com.google.zxing.common.helper.Result;
 import com.google.zxing.common.BitArray;
 
 final class UPCEANExtensionSupport {

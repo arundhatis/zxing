@@ -16,10 +16,6 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.Binarizer;
-import com.google.zxing.LuminanceSource;
-import com.google.zxing.NotFoundException;
-
 /**
  * This class implements a local thresholding algorithm, which while slower than the
  * GlobalHistogramBinarizer, is fairly efficient for what it does. It is designed for

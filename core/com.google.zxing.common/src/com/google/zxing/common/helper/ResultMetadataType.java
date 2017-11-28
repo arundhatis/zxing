@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common.helper;
 
 /**
  * Represents some type of metadata about the result of the decoding that the decoder

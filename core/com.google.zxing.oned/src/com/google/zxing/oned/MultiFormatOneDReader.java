@@ -16,8 +16,8 @@
 
 package com.google.zxing.oned;
 
-import com.google.zxing.*;
-import com.google.zxing.common.BitArray;
+import com.google.zxing.common.*;
+import com.google.zxing.common.helper.Result;
 import com.google.zxing.oned.rss.RSS14Reader;
 import com.google.zxing.oned.rss.expanded.RSSExpandedReader;
 

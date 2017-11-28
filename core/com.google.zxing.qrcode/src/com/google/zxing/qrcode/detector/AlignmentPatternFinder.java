@@ -16,8 +16,8 @@
 
 package com.google.zxing.qrcode.detector;
 
-import com.google.zxing.NotFoundException;
-import com.google.zxing.ResultPointCallback;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.ResultPointCallback;
 import com.google.zxing.common.BitMatrix;
 
 import java.util.ArrayList;

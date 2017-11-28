@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common.helper;
+
+import com.google.zxing.common.BarcodeFormat;
 
 import java.util.EnumMap;
 import java.util.Map;

@@ -16,9 +16,9 @@
 
 package com.google.zxing.aztec;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.EncodeHintType;
-import com.google.zxing.Writer;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.EncodeHintType;
+import com.google.zxing.common.Writer;
 import com.google.zxing.aztec.encoder.AztecCode;
 import com.google.zxing.aztec.encoder.Encoder;
 import com.google.zxing.common.BitMatrix;

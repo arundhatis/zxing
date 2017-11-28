@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
+package com.google.zxing.common.helper;
 
 import com.google.zxing.common.detector.MathUtils;
 

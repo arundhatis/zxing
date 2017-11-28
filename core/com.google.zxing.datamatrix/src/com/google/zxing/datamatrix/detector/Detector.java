@@ -16,8 +16,8 @@
 
 package com.google.zxing.datamatrix.detector;
 
-import com.google.zxing.NotFoundException;
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.helper.ResultPoint;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DetectorResult;
 import com.google.zxing.common.GridSampler;

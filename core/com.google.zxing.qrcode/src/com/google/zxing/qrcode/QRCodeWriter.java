@@ -16,10 +16,10 @@
 
 package com.google.zxing.qrcode;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.EncodeHintType;
-import com.google.zxing.Writer;
-import com.google.zxing.WriterException;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.EncodeHintType;
+import com.google.zxing.common.Writer;
+import com.google.zxing.common.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import com.google.zxing.qrcode.encoder.ByteMatrix;

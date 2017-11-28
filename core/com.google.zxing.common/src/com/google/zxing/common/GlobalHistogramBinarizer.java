@@ -16,10 +16,6 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.Binarizer;
-import com.google.zxing.LuminanceSource;
-import com.google.zxing.NotFoundException;
-
 /**
  * This Binarizer implementation uses the old ZXing global histogram approach. It is suitable
  * for low-end mobile devices which don't have enough CPU or memory to use a local thresholding

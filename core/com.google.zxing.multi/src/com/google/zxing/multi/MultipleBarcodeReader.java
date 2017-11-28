@@ -16,17 +16,18 @@
 
 package com.google.zxing.multi;
 
-import com.google.zxing.BinaryBitmap;
-import com.google.zxing.DecodeHintType;
-import com.google.zxing.NotFoundException;
-import com.google.zxing.Result;
+import com.google.zxing.common.BinaryBitmap;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.helper.Result;
+import com.google.zxing.common.Reader;
 
 import java.util.Map;
 
 /**
  * Implementation of this interface attempt to read several barcodes from one image.
  *
- * @see com.google.zxing.Reader
+ * @see Reader
  * @author Sean Owen
  */
 public interface MultipleBarcodeReader {

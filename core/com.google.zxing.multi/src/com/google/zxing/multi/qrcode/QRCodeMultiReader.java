@@ -16,9 +16,11 @@
 
 package com.google.zxing.multi.qrcode;
 
-import com.google.zxing.*;
-import com.google.zxing.common.DecoderResult;
-import com.google.zxing.common.DetectorResult;
+import com.google.zxing.common.*;
+import com.google.zxing.common.helper.Result;
+import com.google.zxing.common.helper.ResultPoint;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.helper.ResultMetadataType;
 import com.google.zxing.multi.MultipleBarcodeReader;
 import com.google.zxing.multi.qrcode.detector.MultiDetector;
 import com.google.zxing.qrcode.QRCodeReader;

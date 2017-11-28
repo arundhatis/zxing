@@ -16,8 +16,6 @@
 
 package com.google.zxing.common;
 
-import com.google.zxing.NotFoundException;
-
 /**
  * Implementations of this class can, given locations of finder patterns for a QR code in an
  * image, sample the right points in the image to reconstruct the QR code, accounting for

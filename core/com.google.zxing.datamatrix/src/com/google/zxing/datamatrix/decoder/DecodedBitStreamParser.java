@@ -16,7 +16,7 @@
 
 package com.google.zxing.datamatrix.decoder;
 
-import com.google.zxing.FormatException;
+import com.google.zxing.common.FormatException;
 import com.google.zxing.common.BitSource;
 import com.google.zxing.common.DecoderResult;
 

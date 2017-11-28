@@ -26,7 +26,7 @@
 
 package com.google.zxing.oned.rss.expanded.decoders;
 
-import com.google.zxing.NotFoundException;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.BitArray;
 
 /**
