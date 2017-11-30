@@ -16,10 +16,17 @@
 
 package com.google.zxing.oned;
 
-import com.google.zxing.common.*;
+import com.google.zxing.common.BinaryBitmap;
+import com.google.zxing.common.ChecksumException;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.Reader;
+import com.google.zxing.common.ReaderException;
 import com.google.zxing.common.Result;
-import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.ResultMetadataType;
+import com.google.zxing.common.ResultPoint;
+import com.google.zxing.common.BitArray;
 
 import java.util.Arrays;
 import java.util.EnumMap;

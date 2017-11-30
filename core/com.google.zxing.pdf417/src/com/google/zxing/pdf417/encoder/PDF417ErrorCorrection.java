@@ -20,7 +20,7 @@
 
 package com.google.zxing.pdf417.encoder;
 
-import com.google.zxing.WriterException;
+import com.google.zxing.common.WriterException;
 
 /**
  * PDF417 error correction code following the algorithm described in ISO/IEC 15438:2001(E) in

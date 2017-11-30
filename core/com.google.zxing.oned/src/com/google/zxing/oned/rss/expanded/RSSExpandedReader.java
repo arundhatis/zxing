@@ -26,10 +26,14 @@
 
 package com.google.zxing.oned.rss.expanded;
 
-import com.google.zxing.common.*;
-import com.google.zxing.common.detector.MathUtils;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.Result;
 import com.google.zxing.common.ResultPoint;
+import com.google.zxing.common.BitArray;
+import com.google.zxing.common.detector.MathUtils;
 import com.google.zxing.oned.rss.AbstractRSSReader;
 import com.google.zxing.oned.rss.DataCharacter;
 import com.google.zxing.oned.rss.FinderPattern;

@@ -20,7 +20,7 @@
 
 package com.google.zxing.pdf417.encoder;
 
-import com.google.zxing.WriterException;
+import com.google.zxing.common.WriterException;
 import com.google.zxing.common.CharacterSetECI;
 
 import java.math.BigInteger;

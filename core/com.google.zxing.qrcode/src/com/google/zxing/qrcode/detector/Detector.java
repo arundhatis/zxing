@@ -16,9 +16,16 @@
 
 package com.google.zxing.qrcode.detector;
 
-import com.google.zxing.common.*;
-import com.google.zxing.common.detector.MathUtils;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.ResultPoint;
+import com.google.zxing.common.ResultPointCallback;
+import com.google.zxing.common.BitMatrix;
+import com.google.zxing.common.DetectorResult;
+import com.google.zxing.common.GridSampler;
+import com.google.zxing.common.PerspectiveTransform;
+import com.google.zxing.common.detector.MathUtils;
 import com.google.zxing.qrcode.decoder.Version;
 
 import java.util.Map;

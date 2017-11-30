@@ -16,10 +16,10 @@
 
 package com.google.zxing.pdf417.decoder;
 
-import com.google.zxing.ChecksumException;
-import com.google.zxing.FormatException;
-import com.google.zxing.NotFoundException;
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.ChecksumException;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DecoderResult;
 import com.google.zxing.common.detector.MathUtils;

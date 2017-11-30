@@ -17,11 +17,15 @@
 package com.google.zxing.datamatrix;
 
 import com.google.zxing.common.BarcodeFormat;
-import com.google.zxing.common.Dimension;
 import com.google.zxing.common.EncodeHintType;
 import com.google.zxing.common.Writer;
 import com.google.zxing.common.BitMatrix;
-import com.google.zxing.datamatrix.encoder.*;
+import com.google.zxing.datamatrix.encoder.DefaultPlacement;
+import com.google.zxing.common.Dimension;
+import com.google.zxing.datamatrix.encoder.ErrorCorrection;
+import com.google.zxing.datamatrix.encoder.HighLevelEncoder;
+import com.google.zxing.datamatrix.encoder.SymbolInfo;
+import com.google.zxing.datamatrix.encoder.SymbolShapeHint;
 import com.google.zxing.qrcode.encoder.ByteMatrix;
 
 import java.util.Map;

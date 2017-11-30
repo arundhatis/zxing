@@ -16,7 +16,16 @@
 
 package com.google.zxing.pdf417;
 
-import com.google.zxing.*;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.BinaryBitmap;
+import com.google.zxing.common.ChecksumException;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
+import com.google.zxing.common.Reader;
+import com.google.zxing.common.Result;
+import com.google.zxing.common.ResultMetadataType;
+import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.DecoderResult;
 import com.google.zxing.multi.MultipleBarcodeReader;
 import com.google.zxing.pdf417.decoder.PDF417ScanningDecoder;

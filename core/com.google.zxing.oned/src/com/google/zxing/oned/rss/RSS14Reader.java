@@ -16,10 +16,14 @@
 
 package com.google.zxing.oned.rss;
 
-import com.google.zxing.common.*;
-import com.google.zxing.common.detector.MathUtils;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.Result;
 import com.google.zxing.common.ResultPoint;
+import com.google.zxing.common.ResultPointCallback;
+import com.google.zxing.common.BitArray;
+import com.google.zxing.common.detector.MathUtils;
 
 import java.util.ArrayList;
 import java.util.Collection;

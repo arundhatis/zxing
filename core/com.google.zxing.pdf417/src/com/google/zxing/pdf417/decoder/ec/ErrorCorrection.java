@@ -16,7 +16,7 @@
 
 package com.google.zxing.pdf417.decoder.ec;
 
-import com.google.zxing.ChecksumException;
+import com.google.zxing.common.ChecksumException;
 
 /**
  * <p>PDF417 error correction implementation.</p>

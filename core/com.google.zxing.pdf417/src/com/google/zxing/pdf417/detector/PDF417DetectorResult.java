@@ -16,7 +16,7 @@
 
 package com.google.zxing.pdf417.detector;
 
-import com.google.zxing.ResultPoint;
+import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.BitMatrix;
 
 import java.util.List;
