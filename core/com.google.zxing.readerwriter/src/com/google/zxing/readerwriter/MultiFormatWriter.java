@@ -1,4 +1,4 @@
-/*
+package com.google.zxing.readerwriter;/*
  * Copyright 2008 ZXing authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,10 +14,8 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
-
 import com.google.zxing.aztec.AztecWriter;
-import com.google.zxing.common.BitMatrix;
+import com.google.zxing.common.*;
 import com.google.zxing.datamatrix.DataMatrixWriter;
 import com.google.zxing.oned.*;
 import com.google.zxing.pdf417.PDF417Writer;

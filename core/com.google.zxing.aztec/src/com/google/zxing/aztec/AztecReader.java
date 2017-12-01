@@ -18,9 +18,15 @@ package com.google.zxing.aztec;
 
 import com.google.zxing.aztec.decoder.Decoder;
 import com.google.zxing.aztec.detector.Detector;
-import com.google.zxing.common.*;
+import com.google.zxing.common.BinaryBitmap;
+import com.google.zxing.common.FormatException;
+import com.google.zxing.common.NotFoundException;
 import com.google.zxing.common.Result;
+import com.google.zxing.common.DecodeHintType;
+import com.google.zxing.common.Reader;
 import com.google.zxing.common.ResultPoint;
+import com.google.zxing.common.DecoderResult;
+import com.google.zxing.common.ResultPointCallback;
 import com.google.zxing.common.BarcodeFormat;
 import com.google.zxing.common.ResultMetadataType;
 

@@ -27,6 +27,7 @@
 package com.google.zxing.oned.rss.expanded.decoders;
 
 import com.google.zxing.NotFoundException;
+import com.google.zxing.common.NotFoundException;
 import org.junit.Assert;
 import org.junit.Test;
 

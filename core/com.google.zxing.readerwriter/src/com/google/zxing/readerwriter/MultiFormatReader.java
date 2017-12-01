@@ -1,4 +1,4 @@
-/*
+package com.google.zxing.readerwriter;/*
  * Copyright 2007 ZXing authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-package com.google.zxing;
-
 import com.google.zxing.aztec.AztecReader;
 import com.google.zxing.datamatrix.DataMatrixReader;
 import com.google.zxing.maxicode.MaxiCodeReader;
@@ -28,7 +26,7 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * MultiFormatReader is a convenience class and the main entry point into the library for most uses.
+ * com.google.zxing.readerwriter.MultiFormatReader is a convenience class and the main entry point into the library for most uses.
  * By default it attempts to decode all barcode formats that the library supports. Optionally, you
  * can provide a hints object to request different behavior, for example only decoding QR codes.
  *
@@ -86,7 +84,7 @@ public final class MultiFormatReader implements Reader {
   }
 
   /**
-   * This method adds state to the MultiFormatReader. By setting the hints once, subsequent calls
+   * This method adds state to the com.google.zxing.readerwriter.MultiFormatReader. By setting the hints once, subsequent calls
    * to decodeWithState(image) can reuse the same set of readers without reallocating memory. This
    * is important for performance in continuous scan clients.
    *
