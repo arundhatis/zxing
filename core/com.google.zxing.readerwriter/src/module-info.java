@@ -5,6 +5,7 @@ module com.google.zxing.readerwriter {
     requires com.google.zxing.oned;
     requires com.google.zxing.pdf417;
     requires com.google.zxing.qrcode;
+    requires com.google.zxing.maxicode;
 
     exports com.google.zxing.readerwriter;
 }
