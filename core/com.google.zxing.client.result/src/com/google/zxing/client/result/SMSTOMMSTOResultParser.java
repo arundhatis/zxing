@@ -16,7 +16,7 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.Result;
+import com.google.zxing.common.Result;
 
 /**
  * <p>Parses an "smsto:" URI result, whose format is not standardized but appears to be like:

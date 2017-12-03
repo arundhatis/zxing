@@ -16,7 +16,7 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.Result;
+import com.google.zxing.common.Result;
 
 /**
  * Implements the "MECARD" address book entry format.

@@ -16,8 +16,8 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.Result;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.Result;
 
 /**
  * Parses strings of digits that represent a ISBN.

@@ -16,7 +16,7 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.Result;
+import com.google.zxing.common.Result;
 
 import java.util.ArrayList;
 import java.util.Collection;

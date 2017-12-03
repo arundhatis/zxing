@@ -16,7 +16,7 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.Result;
+import com.google.zxing.common.Result;
 
 /**
  * Parses the "URLTO" result format, which is of the form "URLTO:[title]:[url]".

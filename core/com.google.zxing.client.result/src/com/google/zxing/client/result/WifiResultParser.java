@@ -16,7 +16,7 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.Result;
+import com.google.zxing.common.Result;
 
 /**
  * <p>Parses a WIFI configuration string. Strings will be of the form:</p>

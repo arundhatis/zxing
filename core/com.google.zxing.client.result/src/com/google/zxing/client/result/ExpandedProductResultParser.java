@@ -26,8 +26,8 @@
 
 package com.google.zxing.client.result;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.Result;
+import com.google.zxing.common.BarcodeFormat;
+import com.google.zxing.common.Result;
 
 import java.util.HashMap;
 import java.util.Map;
