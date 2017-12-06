@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing.multi;
+package com.google.zxing.multi.barcode;
 
 import com.google.zxing.common.BinaryBitmap;
 import com.google.zxing.common.DecodeHintType;

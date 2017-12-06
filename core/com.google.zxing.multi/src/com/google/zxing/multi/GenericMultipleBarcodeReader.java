@@ -23,6 +23,7 @@ import com.google.zxing.common.Reader;
 import com.google.zxing.common.ReaderException;
 import com.google.zxing.common.Result;
 import com.google.zxing.common.ResultPoint;
+import com.google.zxing.multi.barcode.MultipleBarcodeReader;
 
 import java.util.ArrayList;
 import java.util.List;

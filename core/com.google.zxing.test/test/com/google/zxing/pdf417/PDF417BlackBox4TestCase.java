@@ -17,7 +17,7 @@
 package com.google.zxing.pdf417;
 
 import com.google.zxing.common.*;
-import com.google.zxing.multi.MultipleBarcodeReader;
+import com.google.zxing.multi.barcode.MultipleBarcodeReader;
 import org.junit.Test;
 
 import javax.imageio.ImageIO;

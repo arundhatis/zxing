@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing.multi.qrcode.detector;
+package com.google.zxing.multi.barcode;
 
 import com.google.zxing.common.DecodeHintType;
 import com.google.zxing.common.NotFoundException;
@@ -22,6 +22,7 @@ import com.google.zxing.common.ReaderException;
 import com.google.zxing.common.ResultPointCallback;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DetectorResult;
+import com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder;
 import com.google.zxing.qrcode.detector.Detector;
 import com.google.zxing.qrcode.detector.FinderPatternInfo;
 

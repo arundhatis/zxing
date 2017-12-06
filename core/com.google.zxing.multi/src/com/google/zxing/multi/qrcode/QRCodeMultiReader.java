@@ -26,8 +26,8 @@ import com.google.zxing.common.ResultMetadataType;
 import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.DecoderResult;
 import com.google.zxing.common.DetectorResult;
-import com.google.zxing.multi.MultipleBarcodeReader;
-import com.google.zxing.multi.qrcode.detector.MultiDetector;
+import com.google.zxing.multi.barcode.MultipleBarcodeReader;
+import com.google.zxing.multi.barcode.MultiDetector;
 import com.google.zxing.qrcode.QRCodeReader;
 import com.google.zxing.qrcode.decoder.QRCodeDecoderMetaData;
 

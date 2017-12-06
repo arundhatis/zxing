@@ -27,7 +27,7 @@ import com.google.zxing.common.Result;
 import com.google.zxing.common.ResultMetadataType;
 import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.DecoderResult;
-import com.google.zxing.multi.MultipleBarcodeReader;
+import com.google.zxing.multi.barcode.MultipleBarcodeReader;
 import com.google.zxing.pdf417.decoder.PDF417ScanningDecoder;
 import com.google.zxing.pdf417.detector.Detector;
 import com.google.zxing.pdf417.detector.PDF417DetectorResult;

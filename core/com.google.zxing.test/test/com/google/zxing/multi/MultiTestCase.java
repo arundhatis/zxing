@@ -17,6 +17,7 @@
 package com.google.zxing.multi;
 
 import com.google.zxing.common.*;
+import com.google.zxing.multi.barcode.MultipleBarcodeReader;
 import com.google.zxing.readerwriter.MultiFormatReader;
 import org.junit.Assert;
 import org.junit.Test;
