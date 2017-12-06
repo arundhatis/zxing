@@ -16,6 +16,7 @@
 
 package com.google.zxing.aztec.encoder;
 
+import com.google.zxing.aztec.helper.HighLevelEncoder;
 import com.google.zxing.common.BitArray;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.reedsolomon.GenericGF;

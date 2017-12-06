@@ -14,7 +14,7 @@ package com.google.zxing.readerwriter;/*
  * limitations under the License.
  */
 
-import com.google.zxing.aztec.AztecReader;
+import com.google.zxing.aztec.readerwriter.AztecReader;
 import com.google.zxing.common.*;
 import com.google.zxing.datamatrix.DataMatrixReader;
 import com.google.zxing.maxicode.MaxiCodeReader;

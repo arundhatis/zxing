@@ -16,8 +16,9 @@
 
 package com.google.zxing.aztec.encoder;
 
-import com.google.zxing.aztec.AztecDetectorResult;
-import com.google.zxing.aztec.AztecWriter;
+import com.google.zxing.aztec.detector.AztecDetectorResult;
+import com.google.zxing.aztec.helper.HighLevelEncoder;
+import com.google.zxing.aztec.readerwriter.AztecWriter;
 import com.google.zxing.aztec.decoder.Decoder;
 import com.google.zxing.common.*;
 import org.junit.Assert;

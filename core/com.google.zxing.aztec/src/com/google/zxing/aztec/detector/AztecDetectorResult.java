@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing.aztec;
+package com.google.zxing.aztec.detector;
 
 import com.google.zxing.common.ResultPoint;
 import com.google.zxing.common.BitMatrix;

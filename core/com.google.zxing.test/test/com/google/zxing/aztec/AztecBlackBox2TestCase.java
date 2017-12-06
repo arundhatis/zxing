@@ -16,6 +16,7 @@
 
 package com.google.zxing.aztec;
 
+import com.google.zxing.aztec.readerwriter.AztecReader;
 import com.google.zxing.common.AbstractBlackBoxTestCase;
 import com.google.zxing.common.BarcodeFormat;
 

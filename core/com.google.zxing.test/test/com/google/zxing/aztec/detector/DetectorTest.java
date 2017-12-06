@@ -16,7 +16,6 @@
 
 package com.google.zxing.aztec.detector;
 
-import com.google.zxing.aztec.AztecDetectorResult;
 import com.google.zxing.aztec.decoder.Decoder;
 import com.google.zxing.aztec.detector.Detector.Point;
 import com.google.zxing.aztec.encoder.AztecCode;

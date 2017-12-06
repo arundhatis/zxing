@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing.aztec.encoder;
+package com.google.zxing.aztec.helper;
 
 import com.google.zxing.common.BitArray;
 

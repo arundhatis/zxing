@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.zxing.aztec;
+package com.google.zxing.aztec.readerwriter;
 
 import com.google.zxing.aztec.decoder.Decoder;
+import com.google.zxing.aztec.detector.AztecDetectorResult;
 import com.google.zxing.aztec.detector.Detector;
 import com.google.zxing.common.BinaryBitmap;
 import com.google.zxing.common.FormatException;

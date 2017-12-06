@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing.aztec;
+package com.google.zxing.aztec.readerwriter;
 
 import com.google.zxing.common.BarcodeFormat;
 import com.google.zxing.common.EncodeHintType;

@@ -15,7 +15,7 @@
  */
 package com.google.zxing.aztec.decoder;
 
-import com.google.zxing.aztec.AztecDetectorResult;
+import com.google.zxing.aztec.detector.AztecDetectorResult;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.DecoderResult;
 import com.google.zxing.common.FormatException;
