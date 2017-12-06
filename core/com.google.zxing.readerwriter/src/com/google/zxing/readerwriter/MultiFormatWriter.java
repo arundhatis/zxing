@@ -16,7 +16,7 @@ package com.google.zxing.readerwriter;/*
 
 import com.google.zxing.aztec.readerwriter.AztecWriter;
 import com.google.zxing.common.*;
-import com.google.zxing.datamatrix.DataMatrixWriter;
+import com.google.zxing.datamatrix.readerwriter.DataMatrixWriter;
 import com.google.zxing.oned.*;
 import com.google.zxing.pdf417.PDF417Writer;
 import com.google.zxing.qrcode.QRCodeWriter;

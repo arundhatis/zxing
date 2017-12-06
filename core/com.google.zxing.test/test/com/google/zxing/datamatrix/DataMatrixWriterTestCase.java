@@ -20,6 +20,7 @@ import com.google.zxing.common.BarcodeFormat;
 import com.google.zxing.common.EncodeHintType;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.datamatrix.encoder.SymbolShapeHint;
+import com.google.zxing.datamatrix.readerwriter.DataMatrixWriter;
 import org.junit.Assert;
 import org.junit.Test;
 

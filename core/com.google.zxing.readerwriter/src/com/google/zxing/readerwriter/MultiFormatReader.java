@@ -16,7 +16,7 @@ package com.google.zxing.readerwriter;/*
 
 import com.google.zxing.aztec.readerwriter.AztecReader;
 import com.google.zxing.common.*;
-import com.google.zxing.datamatrix.DataMatrixReader;
+import com.google.zxing.datamatrix.readerwriter.DataMatrixReader;
 import com.google.zxing.maxicode.MaxiCodeReader;
 import com.google.zxing.oned.MultiFormatOneDReader;
 import com.google.zxing.pdf417.PDF417Reader;

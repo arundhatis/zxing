@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.zxing.datamatrix;
+package com.google.zxing.datamatrix.readerwriter;
 
 import com.google.zxing.common.BarcodeFormat;
 import com.google.zxing.common.EncodeHintType;
